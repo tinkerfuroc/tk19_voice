@@ -1,0 +1,6 @@
+<launch>
+<node pkg="xf_voice" name="xfei_node" type="xf_tts" output="screen">
+        </node>
+ <node pkg="xf_voice" name="xfei_node2" type="xf_asr" output="screen">
+        </node>       
+</launch>
